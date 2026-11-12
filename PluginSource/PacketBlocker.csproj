@@ -2,31 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
+    <OutputType>Library</OutputType>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <AssemblyName>PacketBlocker</AssemblyName>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Основной API TShock -->
-    <Reference Include="TShockAPI">
-      <HintPath>..\libs\TShockAPI.dll</HintPath>
-    </Reference>
-    
-    <!-- Ядро сервера Terraria -->
-    <Reference Include="TerrariaServer">
-      <HintPath>..\libs\TerrariaServer.dll</HintPath>
-    </Reference>
-    
-    <!-- OTAPI (хуки и протокол) -->
-    <Reference Include="OTAPI">
-      <HintPath>..\libs\OTAPI.dll</HintPath>
-    </Reference>
-
-    <!-- Серверное API (TerrariaServerAPI), которое мы только что собрали -->
-    <Reference Include="TerrariaServerAPI">
-      <HintPath>..\libs\TerrariaServerAPI.dll</HintPath>
-    </Reference>
+    <!-- Автоматически подтягивает TShock, OTAPI и весь серверный API через NuGet -->
+    <PackageReference Include="TShock" Version="6.2.1" />
   </ItemGroup>
 
 </Project>
