@@ -1,0 +1,16 @@
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.csproj.AssemblyReference.cache
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.AssemblyInfoInputs.cache
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.AssemblyInfo.cs
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.csproj.CoreCompileInputs.cache
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\PacketBlocker.deps.json
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\PacketBlocker.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\PacketBlocker.pdb
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\OTAPI.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\TerrariaServer.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\bin\Release\net9.0\TShockAPI.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBl.1AA8A9E4.Up2Date
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\refint\PacketBlocker.dll
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\PacketBlocker.pdb
+C:\Users\misha\Desktop\PacketBlocker\PluginSource\obj\Release\net9.0\ref\PacketBlocker.dll

@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>PacketBlocker</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Основной API TShock -->
+    <Reference Include="TShockAPI">
+      <HintPath>..\libs\TShockAPI.dll</HintPath>
+    </Reference>
+    
+    <!-- Ядро сервера Terraria -->
+    <Reference Include="TerrariaServer">
+      <HintPath>..\libs\TerrariaServer.dll</HintPath>
+    </Reference>
+    
+    <!-- OTAPI (хуки и протокол) -->
+    <Reference Include="OTAPI">
+      <HintPath>..\libs\OTAPI.dll</HintPath>
+    </Reference>
+
+    <!-- Серверное API (TerrariaServerAPI), которое мы только что собрали -->
+    <Reference Include="TerrariaServerAPI">
+      <HintPath>..\libs\TerrariaServerAPI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
