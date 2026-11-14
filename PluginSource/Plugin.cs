@@ -10,14 +10,13 @@ namespace PacketBlockerPlugin
     {
         public override string Name => "PacketBlocker";
         public override string Author => "мистер мастер";
-        public override Version Version => new Version(1, 0, 0);
-        public override string Description => "Блокирует пакеты инвентаря для защиты SSC";
+        public override Version Version => new Version(1, 0, 1);
+        public override string Description => "Блокирует пакеты 21 и 85";
 
         public PacketBlocker(Main game) : base(game) { }
 
         public override void Initialize()
         {
-            // Регистрируем хук перехвата сетевых пакетов через TSAPI
             ServerApi.Hooks.NetGetData.Register(this, OnGetData);
         }
 
@@ -32,10 +31,10 @@ namespace PacketBlockerPlugin
 
         private void OnGetData(GetDataEventArgs args)
         {
-            PacketTypes packetType = args.MsgID;
+            int msgId = (int)args.MsgID;
 
-            // Блокируем пакеты слотов и инвентаря от клиентов
-            if (packetType == PacketTypes.PlayerSlot || packetType == PacketTypes.ClientSyncedInventory)
+            // Блокируем только пакеты 21 (UpdateItemDrop) и 85 (QuickStackChests)
+            if (msgId == 21 || msgId == 85)
             {
                 args.Handled = true;
             }
